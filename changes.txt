@@ -1,0 +1,6 @@
+train_detail
+book
+book ticket db
+print 
+payment
+database table book ticket

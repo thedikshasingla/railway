@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+.imageeffect  {
+transition:all 1s;
+	vertical-align: middle;
+
+border-style: none;
+}
+.imageeffect:hover{
+	transform:scale(1.1);
+	animation:cubic-bezier();
+	
+}
+.navbar-default {
+    background-color:#906;
+    border-color: #25274d;
+}
+
+.footer{
+	background-color:#906;
+	padding:80px;
+}
+hr .small{
+	max-width:200px;
+	border-top:1px solid blueviole;
+	border-width:2px;
+}
+.social{
+	border:3px solid #fff;
+	border-radius:100%;
+	padding:13px;
+	color:#fff;
+}
+.social a
+{
+	color:#fff;}
+	.social a:hover
+{
+	color:#906;}
+.social:hover{
+	background-color:white;
+	color:#906;
+}
+.service{
+	background-color:#f8f8f8;
+	padding:30px;
+}
+.service h1{
+	color:#000;
+	font-size:40px;
+	text-align:center;
+}
+.btn-light
+{
+	background-color:#fff;
+	padding:7px;
+	border:none;
+	border-radius:5px;
+}
+.btn-light a{
+	color:#906;
+}
+.book
+{
+	background-color:none;
+	border:3px solid #906;
+	padding-top:10px;
+	color:#fff;
+	padding-bottom:10px;
+	
+}
+.book a{
+	text-decoration:none;
+	color:#906;
+}
+.book:hover{
+	background-color:#906;
+	color:#fff;
+}
+.book a:hover{
+	color:#fff;
+}
+
+
+
+/*login css */
+
+.back
+{
+	background-image:url(Project/tren1.jpg);
+	background-size:cover;
+	padding:400px;
+}
+
+.loginBox{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:350px;
+	height:420px;
+	padding:80px 40px;
+	box-sizing:border-box;
+	background:rgba(0,0,0,.5);
+}
+
+.user
+{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	overflow:hidden;
+	position:absolute;
+	top:calc(-100px/2);
+	left:calc(50% - 50px);
+}
+
+
+.loginBox p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	color:#fff;
+}
+ 
+.loginBox input{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.loginBox ::placeholder
+{
+	color: rgba(255,255,255,.5);
+}
+.loginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+	background:#6FF;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.loginBox input[type="submit"]:hover
+{
+	background:#ff267e;
+	color:#fff;
+}
+.loginBox a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/*sign up*/	
+.signback
+{
+	background-image:url(Project/tren1.jpg);
+	background-size:cover;
+	padding:400px;
+}
+
+.signbox{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:350px;
+	height:650px;
+	padding:80px 40px;
+	box-sizing:border-box;
+	background:rgba(0,0,0,.5);
+}
+
+.user
+{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	overflow:hidden;
+	position:absolute;
+	top:calc(-100px/2);
+	left:calc(50% - 50px);
+}
+
+
+.signbox p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	color:#fff;
+}
+ 
+.signbox input{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.signbox input[type="text"],
+.signbox input[type="password"],
+.signbox input[type="email"],
+.signbox input[type="number"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.signbox ::placeholder
+{
+	color: rgba(255,255,255,.5);
+}
+.signbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+	background:#6FF;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.signbox input[type="submit"]:hover
+{
+	background:#ff267e;
+	color:#fff;
+}
+.signbox a
+{
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/*contact us*/
+.prallex{
+	background-image:url(Project/railway-station.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+.divider
+{
+	background-color:rgba(120,0,64,0.5);
+}
+
+.text{
+	color:#FFF;
+}
